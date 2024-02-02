@@ -1,0 +1,557 @@
+---
+title: "Portfolio"
+author: "Venkata Satyanayana Chamana"
+date: "`r paste0(lubridate::month(Sys.Date(), label = T, abbr = F), ' ', scales::ordinal(lubridate::day(Sys.Date())), ', ', lubridate::year(Sys.Date()))`"
+output: 
+   rmdformats::material:
+    code_folding: hide
+---
+# _**About Me**_
+
+My name is **V Satyanarayana Chamana** (Satya). I am an aspiring data enthusiast with a strong foundation in data science and analytics. Currently pursuing a Master of Science in Data Science & Analytics at Grand Valley State University, I am equipped with a diverse skill set that ranges from programming languages like Python and R to an array of data management tools such as SQL, NoSQL, and MongoDB. 
+
+My passion lies in harnessing the power of raw data, transforming it into meaningful insights, and presenting these insights through compelling visualizations. With a background in Mechanical Engineering and a Bachelor's degree from Jawaharlal Nehru Technological University, Kakinada, I bring a unique blend of technical and analytical skills to the table. Having gained hands-on experience as an Analyst at Deloitte India Offices of US, I have honed my abilities in data assessment, visualization, and strategic problem-solving. My time at Infosys further developed my expertise in programming, system deployment, and Agile methodologies. 
+
+I thrive on challenges and look forward to contributing my skills and enthusiasm to drive data-driven decision-making and innovation within organizations.
+
+
+
+# _**About Course**_
+
+## **Course Objective (Show Me):**
+
+### _Probability, Inference & Maximum Likelihood Estimation (MLE):_
+
+Probability concepts form the foundation of statistical inference, which involves drawing conclusions from data. MLE (maximum likelihood estimation) is a statistical method used to estimate the parameters of a probability distribution or a statistical model based on observed data. It seeks the parameter values that maximize the likelihood of observing the given data under the assumed model.
+
+Example: In this portfolio, I've utilized the Attrition dataset to forecast whether an employee is likely to experience attrition. This prediction is achieved through logistic regression, which employs the principles of Maximum Likelihood Estimation to deduce whether an individual employee will be categorized as "Yes" or "No" in terms of attrition.
+
+### _Generalized Linear Model (GLM):_
+
+In generalized linear models (GLMs), probability is used to model relationships between variables when the response variable follows a non-normal distribution. GLMs extend linear regression by allowing the response variable to follow different distributions, such as binomial for binary outcomes or Poisson for count data. The choice of probability distribution and appropriate link function determines how the predictors influence the response's mean and variance.
+
+Example: In our study, we employed the binomial distribution to anticipate outcomes based on the response variables "Yes" or "No," considering a range of influencing factors. The focal point of our analysis was on determining the probability of attrition being categorized as "Yes."
+
+### _Model Selection:_
+
+Model selection is a critical step in statistical modeling. It helps avoid overcomplicating the model with irrelevant predictors or omitting important ones. By using criteria like AIC, we can objectively compare models and choose the one that strikes the right balance between fit and complexity.
+
+Example: We used the stepwise model selection approach to iteratively add or remove predictors from the model based on their significance. This helps in simplifying the model while retaining the most important predictors.
+
+### _Translating Statistical Model Findings for a Non-Technical Audience:_
+
+Upon applying the logistic regression model, I could observe how predictor variables influenced the likelihood of employee attrition. To enhance comprehension for both technical and non-technical audiences, I employed visualizations such as bar plots and regression lines. These visuals effectively conveyed the relationships between different predictors and the probability of attrition, making it easier to convey insights in reports and presentations.
+
+### _Programming Software:_
+
+We used R language with R studio to access the model analysis and all other metrics.
+
+## **Course Outcome (Tell Me):**
+
+By immersing myself in these analyses, I strived to uncover trends, extract meaningful conclusions, and build predictive models that illuminate the landscape of employee attrition risk across diverse fields. The knowledge gained from this exploration holds the potential to offer substantial assistance to organizations, guiding policy formulation, pinpointing vulnerable employee segments, and empowering informed decision-making to optimize workforce management.
+
+By diligently applying the principles I've acquired, I accomplished the following:
+
+- 	Selected and skillfully employed appropriate models, including Linear Regression and Logistic Regression.
+- 	Unveiled intricate patterns within the employee attrition dataset, shedding light on critical insights.
+- 	Employed visualization techniques to portray descriptive statistics of the dataset.
+- 	Produced equations for logistic regression models and effectively interpreted their coefficients.
+- 	Evaluated model effectiveness by partitioning the dataset into training and testing sets, utilizing random sampling techniques.
+- 	Evaluated model effectiveness using metrics such as log-likelihood, AIC (Akaike Information Criterion), and deviance residuals, which collectively offered a holistic insight into the quality of our predictions within the context of logistic regression.
+- 	Participated in 2 mini competitions and learned how to contribute to a team environment and collaborate for better results.
+- 	In mini competition 1 used logistic regression to predict the probability of receiving a callback for an interview.
+- 	In mini competition 2 used poisons distribution to predict the count of sales.
+
+## **Journey of Growth and Learning:**
+
+When I first joined this course, I wasn't exactly sure what to expect. Initially, it seemed like there wasn't much difference from a previous course, STA 518, especially when looking at Week 1 tasks. However, things started to stand out when I explored the course's GitHub page and noticed the focus shifting towards modeling rather than just visualizations, which was a highlight of STA 518.
+
+Participating in the mini competitions was a game-changer. It provided a chance to compare my skills with others in the analytics field and motivated me to learn even more. One skill that I really honed was choosing the right model and digging deep into data. This course helped me see how to effectively analyze data, talk about model metrics, and understand the necessary data transformations before getting into modeling.
+
+These are the topics I learned from our course work.
+
+- 	Linear Regression
+- 	Logistic Regression
+- 	Classification
+- 	Generalized Linear model (Linear, Logistic, Poisson)
+- 	Model assessment
+
+Overall, this journey boosted my ability to pick the right model, analyze data effectively, and explain outcomes clearly.
+
+## **Participation in Course Community:**
+
+Exploring the "Teams" platform for collaborative learning opened a new dimension for me. Interacting with various groups within the subject community and reviewing past semester responses shed light on the significance of sharing knowledge. My peers turned out to be excellent communicators on personal, professional, and technical fronts. This environment quelled any hesitation I had in seeking clarifications, encouraging me to challenge existing concepts.
+
+Despite having used GitHub in my professional career before, this integrated platform learning experience was truly captivating. The constant feedback from both peers and the professor guided me in revisiting and enhancing my grasp of various topics, motivating me to elevate my performance week after week.
+
+In summation, as the semester comes to an end, I sense a genuine alignment between the subject's title, "Modelling and Regression," and my skill set. This course has undeniably fortified my capabilities as a proficient modeler and regressionist.
+
+
+# _**Learning Objectives: ("Show me")**_
+
+- Apply suitable generalized linear models to analyze and predict factors affecting employee attrition rates in a specific organizational context.
+- Conduct model selection using Logistic Regression techniques, evaluating their appropriateness for the given data.
+- Compare and contrast the performance of stepwise and full Logistic Regression models to choose the most suitable model for predicting employee attrition.
+- Communicate statistical model findings effectively by employing exploratory data analysis (EDA) and Logistic Regression methods. These techniques provide insights into the variables influencing employee attrition and facilitate the construction of predictive models.
+
+```{r setup, include=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+library(hrbrthemes)
+library(ggthemes)
+library(scales)
+library(likert)
+library(dplyr)
+library(pROC)
+library(MASS)
+library(knitr)
+library(kableExtra)
+```
+# _**Exploring Employee Attrition: A Deep Dive into the Attrition Dataset**_
+## In-Depth Analysis of Factors Influencing Employee Departure
+
+### The Attrition dataset is a comprehensive collection of employee information designed to explore and analyze factors contributing to employee attrition within an organization. It serves as a valuable resource for understanding the underlying causes and trends associated with employees leaving their jobs. The dataset encompasses a wide range of attributes, including both categorical and numerical variables, that provide insights into various aspects of employee engagement, job satisfaction, and overall work experience.
+```{r}
+empData <- read_csv("HR Employee Attrition.csv")
+
+str(empData)
+
+```
+# _**Exploratary Data Analysis (EDA)**_
+
+
+```{r}
+ggplot(empData, aes(x = Age)) +
+  geom_density(fill = "blue", alpha = 0.5) +
+  labs(title = "Age Distribution",
+       x = "Age",
+       y = "Density") + facet_wrap(~Attrition)
+```
+
+
+
+```{r}
+ggplot(empData, aes(x = Attrition, y = Age, fill = Attrition)) +
+  geom_boxplot() +
+  labs(title = "Age Distribution by Attrition",
+       x = "Attrition",
+       y = "Age")
+```
+
+#### The Density plot depicted above portrays the age distribution of individuals in relation to attrition. An intriguing pattern unfolds, where the attrition rate reaches its zenith around the age of 30. Intriguingly, a complete absence of attrition is observed precisely at the age of 35, adding a unique dimension to the attrition-age relationship.
+```{r}
+empData$SalaryHikeCategory <- cut(empData$PercentSalaryHike,
+                                  breaks = c(10, 15, 20, 25, 30, 35, 40),
+                                  labels = c("10-15%", "15-20%", "20-25%", "25-30%", "30-35%", "35-40%"))
+
+# Stacked bar plot
+ggplot(empData, aes(x = SalaryHikeCategory, fill = Education)) +
+  geom_bar(position = "stack") +
+  labs(x = "Percent Salary Hike Category", y = "Count", fill = "Education") +
+  theme_minimal()
+```
+
+Examining the stacked bar chart above, a noteworthy observation emerges regarding the distribution of salary hike percentage groups. Specifically, the group encompassing a 10-15% hike stands out with a higher count of individuals compared to the other groups.
+
+Moreover, when delving into each salary hike category, it becomes evident that the majority of individuals falling under the "Bachelors" or "Masters" education level are consistently represented. This pattern reinforces the prominence of these education levels across different salary hike brackets.
+
+```{r}
+
+ggplot(empData %>% filter(EducationField != "Other"), aes(x = EducationField, y = PercentSalaryHike, fill=EducationField)) +
+    geom_violin(fill = "dodgerblue") +
+    
+    labs(x = "Education Field", y = "Percent Salary Hike") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+attrition_percent <- empData %>%
+  filter(EducationField != "Other") %>%
+  group_by(EducationField, Attrition) %>%
+  summarise(Count = n()) %>%
+  group_by(EducationField) %>%
+  mutate(Percent = Count / sum(Count) * 100) %>%
+  filter(Attrition == "Yes")
+
+# Plot the Attrition percentage
+ggplot(attrition_percent, aes(x = EducationField, y = Percent, fill = EducationField)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(x = "Education Field", y = "Attrition Percentage", title = "Attrition Percentage Grouped by Education Field") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+- Let's explore the distribution of salary hikes among individuals from various education fields using a violin chart. Notably, the HR and Technical fields exhibit thinner plots at the top, indicating a smaller number of people receiving substantial salary increases.
+
+- Shifting our focus to the subsequent bar plot, it becomes evident that the attrition percentage is notably higher within these two fields compared to the remaining fields.
+```{r}
+
+gpl <- function(attr){
+
+likertData <- empData %>%
+  group_by({{attr}}, Attrition, Gender) %>%
+  summarise(count = n()) %>%
+  mutate(total = sum(count),
+         attrition_percent = count / total * 100) %>%
+  pivot_wider(
+    id_cols = {{attr}},
+    names_from = c(Attrition, Gender),
+    values_from = attrition_percent
+  )
+
+plot_data <- tidyr::gather(likertData, Key, Percent, -{{attr}})
+
+color_palette <- sample(colors(), nrow(plot_data))
+# Create the stacked bar plot
+ggplot(plot_data, aes(x = {{attr}}, y = Percent, fill = Key)) +
+  geom_bar(stat = "identity", position = "stack") +
+   geom_text(aes(label = scales::percent(Percent , scale = 1)),
+            position = position_stack(vjust = 0.5), color = "black", size = 3) +
+  scale_fill_manual(values = color_palette) +
+  labs(title =  paste("Attrition Percentages by", deparse(substitute(attr))), ,
+       x = deparse(substitute(attr)),
+       y = "Percentage") +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        axis.text.x = element_text(angle = 45, hjust = 1))
+}
+
+gpl(WorkLifeBalance)
+gpl(EnvironmentSatisfaction)
+gpl(JobInvolvement)
+gpl(JobSatisfaction)
+gpl(PerformanceRating)
+gpl(RelationshipSatisfaction)
+```
+### Data Cleaning and Transformation
+```{r}
+empData <- empData %>%
+  mutate(
+    Education = case_when(
+      Education == 1 ~ "Below College",
+      Education == 2 ~ "College",
+      Education == 3 ~ "Bachelor",
+      Education == 4 ~ "Master",
+      Education == 5 ~ "Doctor"
+    ),
+    EnvironmentSatisfaction = case_when(
+      EnvironmentSatisfaction == 1 ~ "Low",
+      EnvironmentSatisfaction == 2 ~ "Medium",
+      EnvironmentSatisfaction == 3 ~ "High",
+      EnvironmentSatisfaction == 4 ~ "Very High"
+    ),
+    JobInvolvement = case_when(
+      JobInvolvement == 1 ~ "Low",
+      JobInvolvement == 2 ~ "Medium",
+      JobInvolvement == 3 ~ "High",
+      JobInvolvement == 4 ~ "Very High"
+    ),
+    JobSatisfaction = case_when(
+      JobSatisfaction == 1 ~ "Low",
+      JobSatisfaction == 2 ~ "Medium",
+      JobSatisfaction == 3 ~ "High",
+      JobSatisfaction == 4 ~ "Very High"
+    ),
+    PerformanceRating = case_when(
+      PerformanceRating == 1 ~ "Low",
+      PerformanceRating == 2 ~ "Good",
+      PerformanceRating == 3 ~ "Excellent",
+      PerformanceRating == 4 ~ "Outstanding"
+    ),
+    RelationshipSatisfaction = case_when(
+      RelationshipSatisfaction == 1 ~ "Low",
+      RelationshipSatisfaction == 2 ~ "Medium",
+      RelationshipSatisfaction == 3 ~ "High",
+      RelationshipSatisfaction == 4 ~ "Very High"
+    ),
+    WorkLifeBalance = case_when(
+      WorkLifeBalance == 1 ~ "Bad",
+      WorkLifeBalance == 2 ~ "Good",
+      WorkLifeBalance == 3 ~ "Better",
+      WorkLifeBalance == 4 ~ "Best"
+    )
+  )
+
+
+char_cols_to_factorize <- c("Attrition", "BusinessTravel", "Department", "Education",
+                            "EducationField", "EmployeeCount", "EnvironmentSatisfaction",
+                            "Gender", "JobInvolvement", "JobLevel", "JobRole", "JobSatisfaction",
+                            "MaritalStatus", "Over18", "OverTime", "PerformanceRating",
+                            "RelationshipSatisfaction", "WorkLifeBalance")
+
+empData <- empData %>%
+  mutate_at(vars(all_of(char_cols_to_factorize)), factor) 
+
+
+empData <- empData %>%
+  dplyr::select(-c(Over18, StandardHours, EmployeeCount))
+
+
+
+str(empData)
+```
+
+
+We assigned suitable labels to the features and transformed them into factors to ensure compatibility with the model. Additionally, we excluded the columns - Over18, StandardHours, and EmployeeCount - from the dataset, as they contained uniform values and didn't contribute to the analysis.
+
+# _**Modelling**_
+
+### We choose Logistic regression to model this data set
+
+Logistic regression is a statistical method that is commonly used for predicting binary outcomes, such as whether an event will occur or not. In the context of the Attrition dataset, where the objective is to predict whether an employee will leave the company (attrition = Yes) or stay (attrition = No), logistic regression is a suitable choice for several reasons:
+
+- Binary Outcome: Logistic regression is tailored for binary outcomes, making it a suitable choice for predicting whether employees will experience attrition or not.
+- Interpretability: Logistic regression yields interpretable outcomes in terms of odds ratios and log-odds. These metrics help us comprehend how predictor variables influence the likelihood of attrition.
+- Predictor Variables: The Attrition dataset encompasses diverse predictor variables, such as age, job satisfaction, work-life balance, and job role. Logistic regression empowers us to evaluate the correlation between these predictors and the likelihood of attrition.
+- Linear Separation: Logistic regression models the log-odds of the binary outcome as a linear amalgamation of predictor variables. This is advantageous when a linear distinction might exist between departing and retained employees based on these predictors.
+- Predictive Performance: Logistic regression strikes a balance between model simplicity and predictive performance. It excels when the relationships between predictors and the binary outcome can be adequately modeled linearly.
+
+```{r}
+logistic_model1 <- glm(Attrition ~ ., data = empData, family = "binomial")
+
+summary(logistic_model1)
+```
+#### Model Summary
+
+These are the coefficients obtained from the logistic regression model:
+
+- **(Intercept)**: The intercept term in the logistic regression equation.
+- **Age**: Age of the employee. A negative coefficient indicates that higher age is associated with a lower likelihood of attrition.
+
+- **BusinessTravelTravel_Frequently**: Employees who travel frequently have a higher odds of attrition compared to those who don't.
+- **BusinessTravelTravel_Rarely**: Employees who travel rarely also have a higher odds of attrition compared to those who don't.
+
+- **DailyRate**: A smaller daily rate is associated with a lower likelihood of attrition.
+
+- **DepartmentResearch & Development**: Employees in the Research & Development department have a higher odds of attrition.
+- **DepartmentSales**: Employees in the Sales department have a higher odds of attrition.
+
+- **DistanceFromHome**: Longer distance from home is associated with a higher likelihood of attrition.
+
+- **Education**: Different levels of education have varying effects on attrition.
+
+- **EducationField**: Different education fields have varying effects on attrition.
+
+- **EnvironmentSatisfaction**: Higher environmental satisfaction is associated with a lower likelihood of attrition.
+
+- **GenderMale**: Male employees have a higher odds of attrition compared to female employees.
+
+- **HourlyRate**: Hourly rate has a small positive effect on the likelihood of attrition.
+
+- **JobInvolvement**: Different levels of job involvement have varying effects on attrition.
+
+- **JobLevel**: Different job levels have varying effects on attrition.
+
+- **JobRole**: Different job roles have varying effects on attrition.
+
+- **JobSatisfaction**: Higher job satisfaction is associated with a lower likelihood of attrition.
+
+- **MaritalStatus**: Different marital statuses have varying effects on attrition.
+
+- **MonthlyIncome**: Monthly income has a small negative effect on the likelihood of attrition.
+
+- **MonthlyRate**: Monthly rate has a small positive effect on the likelihood of attrition.
+
+- **NumCompaniesWorked**: More number of companies worked for is associated with a higher likelihood of attrition.
+
+- **OverTimeYes**: Employees who work overtime have a higher odds of attrition.
+
+- **PercentSalaryHike**: Percentage of salary hike has a small negative effect on the likelihood of attrition.
+
+- **PerformanceRatingOutstanding**: Outstanding performance rating has a negative effect on the likelihood of attrition.
+
+- **RelationshipSatisfaction**: Higher relationship satisfaction is associated with a lower likelihood of attrition.
+
+- **StockOptionLevel**: Different stock option levels have varying effects on attrition.
+
+- **TotalWorkingYears**: Total working years has a small negative effect on the likelihood of attrition.
+
+- **TrainingTimesLastYear**: Number of training times last year has a negative effect on the likelihood of attrition.
+
+- **WorkLifeBalance**: Different levels of work-life balance have varying effects on attrition.
+
+- **YearsAtCompany**: Years at the company has a positive effect on the likelihood of attrition.
+
+- **YearsInCurrentRole**: Years in the current role has a negative effect on the likelihood of attrition.
+
+- **YearsSinceLastPromotion**: Years since last promotion has a positive effect on the likelihood of attrition.
+
+- **YearsWithCurrManager**: Years with current manager has a negative effect on the likelihood of attrition.
+
+- **SalaryHikeCategory15-20%**: Employees receiving a salary hike in the range of 15-20% have a positive effect on the likelihood of attrition.
+- **SalaryHikeCategory20-25%**: Employees receiving a salary hike in the range of 20-25% have a positive effect on the likelihood of attrition.
+
+#### These coefficients represent the log-odds of the probability of attrition based on the corresponding predictor variables. The standard errors, z-values, and p-values provide information about the significance of each coefficient. For instance, a low p-value indicates that a coefficient is statistically significant and likely to have a meaningful effect on attrition.
+
+```{r}
+set.seed(123) 
+
+# Create an index to split the data into training and testing sets (70% training, 30% testing)
+train_index <- sample(1:nrow(empData), 0.7 * nrow(empData))
+
+# Split the data into training and testing sets based on the index
+train_data <- empData[train_index, ]
+test_data <- empData[-train_index, ]
+```
+Splitting the data for training and testing.
+```{r}
+predictions_1 <- predict(logistic_model1, newdata = test_data, type = "response")
+
+predicted_labels_1 <- ifelse(predictions_1 >= 0.5, "Yes", "No")
+
+conf_matrix_1 <- table(Actual = test_data$Attrition, Predicted = predicted_labels_1)
+
+accuracy_1 <- sum(diag(conf_matrix_1)) / sum(conf_matrix_1)
+
+precision_1 <- conf_matrix_1[2, 2] / sum(conf_matrix_1[, 2])
+
+recall_1 <- conf_matrix_1[2, 2] / sum(conf_matrix_1[2, ])
+
+f1_score_1 <- 2 * precision_1 * recall_1 / (precision_1 + recall_1)
+
+roc_curve_1 <- roc(test_data$Attrition, predictions_1)
+
+auc_value_1 <- auc(roc_curve_1)
+
+```
+```{r}
+step_model <- logistic_model1 %>% stepAIC(trace = FALSE)
+
+predictions_2 <- predict(step_model, newdata = test_data, type = "response")
+
+predicted_labels_2 <- ifelse(predictions_2 >= 0.5, "Yes", "No")
+
+conf_matrix_2 <- table(Actual = test_data$Attrition, Predicted = predicted_labels_2)
+
+accuracy_2 <- sum(diag(conf_matrix_2)) / sum(conf_matrix_2)
+
+precision_2 <- conf_matrix_2[2, 2] / sum(conf_matrix_2[, 2])
+
+recall_2 <- conf_matrix_2[2, 2] / sum(conf_matrix_1[2, ])
+
+f1_score_2 <- 2 * precision_2 * recall_2 / (precision_2 + recall_2)
+
+roc_curve_2 <- roc(test_data$Attrition, predictions_2)
+
+auc_value_2 <- auc(roc_curve_2)
+
+```
+
+
+#### ***Confusion Matrix (Predicted vs. Actual):***
+The confusion matrix is a table that shows how many instances of each class were correctly or incorrectly classified by a machine learning model. It is used to evaluate the performance of a classification algorithm.
+
+- True Negative (TN): The number of instances that were actually negative (e.g., "No" for attrition) and were predicted to be negative.
+- True Positive (TP): The number of instances that were actually positive (e.g., "Yes" for attrition) and were predicted to be positive.
+- False Negative (FN): The number of instances that were actually positive but were predicted to be negative.
+- False Positive (FP): The number of instances that were actually negative but were predicted to be positive.
+
+#### ***Accuracy:***
+
+Accuracy is a measure of the proportion of correctly predicted instances out of the total instances. It provides an overall performance assessment of the model.
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+
+#### ***Precision:***
+
+Precision is a measure of how many of the instances predicted as positive are actually positive. It focuses on the correctness of positive predictions.
+Precision = TP / (TP + FP)
+Recall (Sensitivity or True Positive Rate):
+Recall is a measure of how many of the actual positive instances were correctly predicted. It focuses on capturing as many actual positives as possible.
+Recall = TP / (TP + FN)
+
+#### **F1 Score:**
+
+The F1 score is the harmonic mean of precision and recall. It provides a balanced assessment of the model's performance, considering both false positives and false negatives.
+F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
+
+```{r}
+conf_matrix_1 <- table(Actual = test_data$Attrition, Predicted = predicted_labels_1)
+conf_matrix_2 <- table(Actual = test_data$Attrition, Predicted = predicted_labels_2)
+
+conf_matrix_df_1 <- as.data.frame.matrix(conf_matrix_1)
+conf_matrix_df_2 <- as.data.frame.matrix(conf_matrix_2)
+
+combined_conf_matrix <- cbind(conf_matrix_df_1, conf_matrix_df_2)
+colnames(combined_conf_matrix) <- c("Predicted No Full Model", "Predicted Yes Full Model", 
+                                    "Predicted No Stepwise Model", "Predicted Yes Stepwise Model")
+
+kable(combined_conf_matrix, caption = "**Comparison of Confusion Matrices**", format = "markdown") 
+
+metrics_df <- data.frame(
+  Metric = c("Accuracy", "Precision", "Recall", "F1 Score", "AUC"),
+  Model_1 = c(accuracy_1, precision_1, recall_1, f1_score_1, auc_value_1),
+  Model_2 = c(accuracy_2, precision_2, recall_2, f1_score_2, auc_value_2)
+)
+
+kable(metrics_df, format = "markdown", col.names = c("Metrics", "Full Model", "Stepwise Model"))
+
+roc_df_1 <- data.frame(coords(roc_curve_1))
+roc_df_2 <- data.frame(coords(roc_curve_2))
+
+ggplot() +
+  geom_line(data = roc_df_1, aes(x = 1 - specificity, y = sensitivity, color = "Full Model"), size = 1) +
+  geom_line(data = roc_df_2, aes(x = 1 - specificity, y = sensitivity, color = "Stepwise Model"), size = 1) +
+  labs(title = "Comparison of ROC Curves",
+       x = "False Positive Rate (1 - Specificity)",
+       y = "True Positive Rate (Sensitivity)") +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  scale_color_manual(values = c("Full Model" = "blue", "Stepwise Model" = "red")) +
+  guides(color = guide_legend(title = NULL))
+```
+
+
+### Interpreting the Models:
+
+In our case, the model's performance is evaluated as follows:
+
+- ***Accuracy:*** Both the full model and the stepwise model have the same accuracy of approximately 0.896. This metric indicates the overall proportion of correct predictions made by the model.
+
+- ***Precision:*** For the full model, the precision is about 0.796, while for the stepwise model, it's slightly lower at around 0.774. In other words, when the model predicts attrition, it's about 79.6% confident for the full model and 77.4% confident for the stepwise model that it's a true positive.
+
+- ***Recall:*** The recall for the full model is 0.52, while for the stepwise model, it's slightly higher at 0.547. The models are able to capture about 52% and 54.7% of the actual attrition cases, respectively.
+
+- ***F1 Score:*** The F1 score for the full model is about 0.629, and for the stepwise model, it's slightly higher at around 0.641. 
+
+- ***AUC:** The AUC (Area Under the Curve) is the same for both the full model and the stepwise model, at approximately 0.910. AUC represents the area under the ROC (Receiver Operating Characteristic) curve, which is a graphical representation of the model's performance across different classification thresholds. A higher AUC value generally indicates better model discrimination.
+
+In summary, both models have similar accuracy, AUC, and recall values. The precision and F1 score are slightly better for the full model compared to the stepwise model. Keep in mind that the choice between these models depends on the specific goals of the analysis and the trade-off between different evaluation metrics.
+```{r}
+predicted.data <- data.frame(
+  probability.of.Attrition=logistic_model1$fitted.values,
+  Attrition=empData$Attrition)
+ 
+predicted.data <- predicted.data[
+  order(predicted.data$probability.of.Attrition, decreasing=FALSE),]
+predicted.data$rank <- 1:nrow(predicted.data)
+ 
+ggplot(data=predicted.data, aes(x=rank, y=probability.of.Attrition)) +
+  geom_point(aes(color=Attrition), alpha=2, stroke=2) +
+  xlab("Index") +
+  ylab("Predicted probability of Attrition")
+```
+This plot illustrates the predicted probability of each employee being in the "Attrition" category. If the probability is greater than 0.5, it indicates that the employee is more likely to be associated with attrition. Conversely, if the probability is below 0.5, it suggests that the employee is less likely to be involved in attrition. This probability threshold of 0.5 is commonly used as a decision boundary to classify instances into different categories.
+
+# _**Learner Outcomes: ("Tell me")**_
+
+By achieving the learning objectives within the scope of our project, I successfully achieved the following outcomes:
+
+- Utilized the appropriate model, specifically the Logistic Regression model, to address the problem of employee attrition.
+- Explored our employee dataset to identify significant patterns and trends relevant to attrition.
+- Skillfully visualized descriptive statistics from the dataset to aid in understanding key insights.
+- Employed both stepwise and full Logistic Regression models to predict attrition and compared their performance using metrics such as the Area Under the Curve (AUC).
+- Leveraged evaluation metrics to effectively predict deviations between predicted and actual values, providing a clear understanding of the model's performance.
+- Translated statistical assessments of model fitness into easily comprehensible visualizations, enhancing the clarity of communication of the model's effectiveness.
+
+# _**Source**_
+
+Dataset - https://www.kaggle.com/datasets/whenamancodes/hr-employee-attrition
+
+Youtube - https://www.youtube.com/watch?v=C4N3_XJJ-jU By Josh Stramer
+
+
+
+
+
+
